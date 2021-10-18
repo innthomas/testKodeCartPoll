@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+:root {
+    --buttonColor:#09174B;
+    --indicatorDark:#C4C4C4;
+    --indicatorTeal:#1E79A1;
+    
+  }
+  
+  
+  .signup-color{
+      background-color: var(--buttonColor);
+  }
+  
+  .bg-indicator-teal{
+    background-color: var(--indicatorTeal);
+  }
+
+  .bg-indicator-dark{
+    background-color: var(--indicatorDark);
+  }
