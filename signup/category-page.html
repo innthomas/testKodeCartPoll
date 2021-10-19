@@ -7,113 +7,67 @@
     <title>Category Page</title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <!-- custom css -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
-    <div class="container-fluid row">
-        <div class=" d-none d-md-block col">
-          <img class="img-fluid" src="../images/Mask Group.png" alt="mask group" />
-        </div>
-        <div class="  col form-group mt-5 ms-5">
-          <div>
-            <img src="../images/Logo.png" alt="logo" />
-           
-          </div>
-          <div>
-            <div>
-              <div class="row pt-3">
-                <div class="row pt-2 pb-3">
-                  <div class="d-flex">
-                    <div class="border px-0 py-2 w-100 p-0 bg-indicator-teal" "></div>
-                    
-                </div>
-               
-              </div>
-          </div>
-          <div>
-           
-            
-             
-              <div>
-                <div class="mb-4">Kindly select your interest</div>
-                <div class="category-form col-12">
-                    <form>
-                    <div class="row mt-3 mb-3">
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="ICT" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col" data-bs-toggle="tooltip" data-bs-placement="top" title="Relationship">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Relationship" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="Travel" aria-label="readonly input example" readonly>
-                          </div>
-                      </div>
-                      <div class="row mt-3 mb-3">
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Places" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="People" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="Nigeria" aria-label="readonly input example" readonly>
-                          </div>
-                      </div>
-                      <div class="row mt-3 mb-3">
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="Medcine" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col" data-bs-toggle="tooltip" data-bs-placement="top" title="Web Development">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Web Development" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Tradition" aria-label="readonly input example" readonly>
-                          </div>
-                      </div>
-                      <div class="row mt-3 mb-3">
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Tech" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Trends" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-info bg-white text-center" type="text" value="Stories" aria-label="readonly input example" readonly>
-                          </div>
-                      </div>
-                      <div class="row mt-3 mb-3">
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Fashion" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class="form-control rounded border border-info text-white bg-info text-center" type="text" value="Food" aria-label="readonly input example" readonly>
-                        </div>
-                        <div class="col">
-                            <input class=" form-control rounded border border-info text-info bg-white text-center" type="text" value="Bussiness" aria-label="readonly input example" readonly>
-                          </div>
-                      </div >
-                      <div class="form-group p-5">
-                        <button type="button" class="text-white btn form-control rounded signup-color" onclick="window.location.href='../index.html'">
-                          Proceed
-                        </button>
-                      </div>
-                     
-                      
-                      
-                      </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      
   
-      
-
-
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+          <!-- first column -->
+        <div class=" col-6 d-none px-0 d-lg-block">
+          <img class="" src="../images/Mask Group.png" width="100%" height="100%"  alt="mask group" />
+        </div>
+        <!-- second column -->
+        <div class="col-md-6 col-11 pt-2 px-0 ">
+          <div class="pt-5  pt-lg-0 pt-xl-5 " >
+            <img src="../images/Logo.png" class="ps-lg-5  ms-lg-3" alt="logo" />
+            <div class="w-100 py-1 mt-3" style="background: #1E79A1;"></div>
+            <div class="">
+              <p class="ps-lg-5  ms-lg-3 fs-5 text-muted pt-3 py-5">Kindly select your interest</p>
+              <div class="">
+                <div class="py-3 px-0"> 
+                  <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-light-category text-center py-2">ICT</button>
+                    <button class="btn-dark-category text-center py-2">Relationship</button>
+                    <button class="btn-light-category text-center py-2">Travel</button>
+                  </div>
+                  <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-dark-category text-center py-2">Places</button>
+                    <button class="btn-light-category text-center py-2">People</button>
+                    <button class="btn-light-category text-center py-2">Nigeira</button>
+                  </div>
+                  <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-light-category text-center py-2">Medcine</button>
+                    <button class="btn-dark-category text-center py-2">Web Development</button>
+                    <button class="btn-dark-category text-center py-2">Tradition</button>
+                  </div>
+                  <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-dark-category text-center py-2">Tech</button>
+                    <button class="btn-dark-category text-center py-2">Trends</button>
+                    <button class="btn-light-category text-center py-2">Stories</button>
+                  </div>
+                  <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-dark-category text-center py-2">Tech</button>
+                    <button class="btn-dark-category text-center py-2">Trends</button>
+                    <button class="btn-light-category text-center py-2">Stories</button>
+                  </div>
+                 <div class="d-flex justify-content-center gap-3 flex-wrap mb-3">
+                    <button class="btn-dark-category text-center py-2">Fashion</button>
+                    <button class="btn-dark-category text-center py-2">Food</button>
+                    <button class="btn-light-category text-center py-2">Bussiness</button>
+                 </div>
+                </div>
+              </div>
+          </div>
+          <div class="mt-4 py-1 text-center w-50 mx-auto rounded" style="background: #09174B;">   
+            <a href="./signup-continue.html" class="text-decoration-none text-light feeds-btn-bg">
+              <button type="button" class=" btn form-control text-white py-1 rounded" >Continue with email</button>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </div>
 
       
      <!-- bootstrap js  -->

@@ -4,23 +4,18 @@
     box-sizing: border-box;
 }
 
+.btn-dark-category{
+    color: #fff;
+    background-color: #1E79A1;
+    border: 1px solid #1E79A1;
+    border-radius: 15px;
+    width: 150px;
 
-:root {
-    --buttonColor:#09174B;
-    --indicatorDark:#C4C4C4;
-    --indicatorTeal:#1E79A1;
-    
-  }
-  
-  
-  .signup-color{
-      background-color: var(--buttonColor);
-  }
-  
-  .bg-indicator-teal{
-    background-color: var(--indicatorTeal);
-  }
-
-  .bg-indicator-dark{
-    background-color: var(--indicatorDark);
-  }
+}
+.btn-light-category{
+    color: #1E79A1;
+    background-color: #ffffff;
+    border: 1px solid #1E79A1;
+    border-radius: 15px;
+    width: 150px;
+}
